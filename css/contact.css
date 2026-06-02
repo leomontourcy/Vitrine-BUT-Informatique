@@ -113,49 +113,49 @@
 }
 
 @media screen and (max-width: 700px) {
-    .Formulaire form,
-    .renseignements {
-        width: 100%;
-        max-width: 100%;
-    }
+  .Formulaire form,
+  .renseignements {
+    width: 100%;
+    max-width: 100%;
+  }
 
-    .form-columns,
-    .renseignements {
-        flex-direction: column;
-    }
+  .form-columns,
+  .renseignements {
+    flex-direction: column;
+  }
 
-    .infos {
-        flex: auto;
-        width: 100%;
-    }
+  .infos {
+    flex: auto;
+    width: 100%;
+  }
 
-    .message {
-        height: auto;
-    }
+  .message {
+    height: auto;
+  }
 
-    .message textarea {
-        min-height: 150px;
-    }
+  .message textarea {
+    min-height: 150px;
+  }
 
-    .photo-iut img,
-    .carte-box img {
-        height: 250px;
-    }
+  .photo-iut img,
+  .carte-box img {
+    height: 250px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .Formulaire form,
-    .renseignements {
-        padding: 0.5em;
-    }
+  .Formulaire form,
+  .renseignements {
+    padding: 0.5em;
+  }
 
-    .infos button,
-    .adresse-box {
-        font-size: 0.9em;
-    }
+  .infos button,
+  .adresse-box {
+    font-size: 0.9em;
+  }
 
-    .photo-iut img,
-    .carte-box img {
-        height: 180px;
-    }
+  .photo-iut img,
+  .carte-box img {
+    height: 180px;
+  }
 }
