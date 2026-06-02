@@ -1,4 +1,4 @@
-# Développement Web
+# Développement Web : https://leomontourcy.github.io/Vitrine-BUT-Informatique/
 
 Site web statique multi-pages réalisé en équipe de 4 étudiants dans le cadre d’un projet de BUT Informatique.
 
