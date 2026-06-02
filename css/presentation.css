@@ -29,8 +29,6 @@ header nav ul {
 
 header nav img {
   display: block;
-  width: auto;
-  height: auto;
   max-height: 88px;
 }
 
@@ -50,43 +48,40 @@ main {
 
 .box1 {
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 h1 {
   text-align: center;
   margin: 10px 0 20px;
   font-size: 28px;
-  color: #1f2d3d;
 }
 
 h2 {
   text-align: center;
   color: #007bff;
-  margin: 30px 0 20px;
-  padding-bottom: 5px;
   border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+  margin-top: 30px;
 }
 
 h3 {
   color: #007bff;
-  margin-top: 0;
-  padding-bottom: 5px;
   border-bottom: 1px dotted #ccc;
+  padding-bottom: 5px;
+  margin-top: 0;
 }
 
 .box2 {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
+  gap: 20px;
   flex-wrap: wrap;
-  margin: 20px 0;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .box3 {
-  flex: 1 1 380px;
+  flex: 1 1 350px;
   text-align: left;
   padding-left: 20px;
 }
@@ -94,7 +89,6 @@ h3 {
 .box4 {
   flex: 1 1 320px;
   text-align: center;
-  padding-right: 20px;
   margin-top: 10px;
 }
 
@@ -138,7 +132,7 @@ hr {
   border-radius: 4px;
 }
 
-.definitions ul {
+.info-list {
   list-style: none;
   padding: 0;
   display: flex;
@@ -146,7 +140,7 @@ hr {
   flex-wrap: wrap;
 }
 
-.definitions li {
+.info-list li {
   background-color: #e9ecef;
   padding: 10px 15px;
   border-left: 4px solid #007bff;
