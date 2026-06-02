@@ -1,3 +1,48 @@
+:root {
+  --bleu-marine: #1e3a5f;
+  --bleu-clair: #4a90e2;
+  --bleu-pastel: #e8f4f8;
+  --rouge-iut: #e63946;
+  --gris-clair: #f5f7fa;
+  --gris-moyen: #e0e4e8;
+  --gris-fonce: #6c757d;
+  --blanc: #ffffff;
+  --texte-principal: #2c3e50;
+}
+
+body,
+ul.sub-menu,
+ul.sub-menu li {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+ul.menu-topics,
+ul.menu-topics-footer {
+  list-style: none;
+}
+
+body,
+p.block-skill,
+ul.menu-topics-footer li a,
+ul.sub-menu li a {
+  text-decoration: none;
+}
+
+body,
+div.div-footer-inc {
+  text-align: center;
+}
+
+body {
+  transition: 3s;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+  height: 100%;
+  background: linear-gradient(135deg, var(--gris-clair) 0, var(--bleu-pastel) 100%);
+  color: var(--texte-principal);
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -115,20 +160,200 @@ ul.sub-menu:hover {
   display: block;
 }
 
-@media screen and (max-width: 1201px) {
-  nav {
-    flex-wrap: wrap;
-    gap: 0.75rem;
-    justify-content: center;
-  }
+main {
+  background: #fff;
+  border-radius: 22px;
+  margin: 24px auto;
+  width: min(1200px, 92%);
+  box-shadow: 0 10px 30px rgba(30, 58, 95, 0.08);
+  padding: 28px;
+}
 
+.box1 {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: var(--bleu-marine);
+  margin: 0 0 20px;
+}
+
+h2 {
+  text-align: center;
+  color: var(--bleu-marine);
+  margin-top: 28px;
+}
+
+h3 {
+  color: var(--bleu-marine);
+}
+
+.box2 {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 24px 0;
+  flex-wrap: wrap;
+}
+
+.box3 {
+  flex: 1 1 360px;
+  text-align: left;
+}
+
+.box4 {
+  flex: 1 1 320px;
+  text-align: center;
+}
+
+.presbut {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 28px 0;
+}
+
+.regles-table {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
+  margin-top: 14px;
+}
+
+.regle-item {
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  color: #333;
+}
+
+.regle-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 12px;
+  border-radius: 10px;
+}
+
+.regle-item p {
+  margin: 10px 0 0;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.info-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.info-list li {
+  background-color: #f3f6fa;
+  padding: 12px 16px;
+  border-left: 4px solid var(--bleu-clair);
+  flex: 1 1 260px;
+  border-radius: 10px;
+}
+
+.box4 a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--bleu-clair);
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+.menu-topics-footer {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  justify-content: center;
+}
+
+.menu-topics-footer a {
+  text-decoration: none;
+  color: #1f2d3d;
+}
+
+footer {
+  padding: 15px;
+  margin-top: 40px;
+  background-color: #ccc;
+  color: #333;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.cnil-link-div {
+  margin: 12px 0;
+}
+
+.cnil-link {
+  color: #1f4e79;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.div-footer-inc ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media screen and (max-width: 1201px) {
   img.right {
     display: none;
   }
 
   ul.menu-topics {
     flex-wrap: wrap;
-    flex: 1 1 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .box2 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .box3 {
+    text-align: center;
+  }
+
+  .regles-table {
+    grid-template-columns: 1fr;
+  }
+
+  .info-list {
+    flex-direction: column;
   }
 }
 
@@ -141,5 +366,9 @@ ul.sub-menu:hover {
   p.block-skill {
     padding: 0.5rem 0.8rem;
     font-size: 0.9rem;
+  }
+
+  main {
+    padding: 18px;
   }
 }
