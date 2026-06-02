@@ -1,52 +1,60 @@
 <!doctype html>
-    <html lang=fr>
-    <meta charset=UTF-8>
-    <meta content="width=device-width,initial-scale=1" name=viewport>
-    <meta
-        content="Présentation du BUT Informatique de l'IUT de Toulouse : historique, formation, compétences visées, vie étudiante et informations sur le campus Rangueil. Découvrez les blocs de compétences et les parcours du Bachelor."
-        name=description>
-    <link href=./images/favicon-32x32.png rel=icon type=image/x-icon>
-    <title>HTML Projet R1.02</title>
-    <link href="../css/styles.css" rel=stylesheet>
-    <link href="../css/contact.css" rel=stylesheet>
-    <link href=https://fonts.googleapis.com rel=preconnect>
-    <link href=https://fonts.gstatic.com rel=preconnect crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel=stylesheet>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Présentation du BUT Informatique de l'IUT de Toulouse : historique, formation, compétences visées, vie étudiante et informations sur le campus Rangueil. Découvrez les blocs de compétences et les parcours du Bachelor.">
+    <link rel="icon" href="../images/favicon-32x32-min.png" type="image/png">
+    <title>Contact - BUT Informatique</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
     <header>
-        <nav><a href="" class=a-img-logo-tls><img alt="Image Logo IUT Toulouse" class=img-iut-logo
-                    src="../images/Logo_IUT_Toulouse_couleurs_carre.png"></a>
-            <ul class=menu-topics>
-                <li class=menu-topics-li><a href="../index.html" class=menu-topics-a>Accueil</a>
-                <li class=menu-topics-li><a href="../pages/Presentation.html" class=menu-topics-a>Présentation
-                        du BUT Informatique</a>
-                <li class=sub-menu-hover>
-                    <p class=block-skill>Blocs de compétences
-                    <ul class=sub-menu>
-                        <li><a href="./competence1.html">Réaliser un développement d'application</a>
-                        <li><a href="./competence2.html">Optimiser des applications informatiques</a>
-                        <li><a href="./competence3.html">Administrer des systèmes informatiques
-                                communicantscomplexes</a>
-                        <li><a href="./competence4.html">Gérer des données de l'information</a>
-                        <li><a href="./competence5.html">Conduire un projet</a>
-                        <li><a href="./competence6.html">Travailler dans une équipe informatique</a>
+        <nav>
+            <a href="../index.html" class="a-img-logo-tls">
+                <img alt="Logo IUT Toulouse" class="img-iut-logo" src="../images/Logo_IUT_Toulouse_couleurs_carre.png">
+            </a>
+
+            <ul class="menu-topics">
+                <li class="menu-topics-li">
+                    <a href="../index.html" class="menu-topics-a">Accueil</a>
+                </li>
+                <li class="menu-topics-li">
+                    <a href="./Presentation.html" class="menu-topics-a">Présentation du BUT Informatique</a>
+                </li>
+                <li class="sub-menu-hover">
+                    <p class="block-skill">Blocs de compétences</p>
+                    <ul class="sub-menu">
+                        <li><a href="./competence1.html">Réaliser un développement d'application</a></li>
+                        <li><a href="./competence2.html">Optimiser des applications informatiques</a></li>
+                        <li><a href="./competence3.html">Administrer des systèmes informatiques communicants complexes</a></li>
+                        <li><a href="./competence4.html">Gérer des données de l'information</a></li>
+                        <li><a href="./competence5.html">Conduire un projet</a></li>
+                        <li><a href="./competence6.html">Travailler dans une équipe informatique</a></li>
                     </ul>
-                <li class=menu-topics-li><a href=./pages/Contact.html class=menu-topics-a>Contact</a>
+                </li>
+                <li class="menu-topics-li">
+                    <a href="./Contact.html" class="menu-topics-a">Contact</a>
+                </li>
             </ul>
-            <div class=menu-icon><img alt="Image Logo IUT Toulouse" class="img-iut-logo right"
-                    src="../images/Img-BUT.png">
+
+            <div class="menu-icon">
+                <img alt="Logo BUT Informatique" class="img-iut-logo right" src="../images/Img-BUT.png">
             </div>
         </nav>
     </header>
+
     <main>
         <h1>Contact</h1>
-        <div class="Formulaire">
+
+        <section class="Formulaire">
             <form>
-                <input class="fullwidth" type="text" placeholder="Objet" />
+                <input class="fullwidth" type="text" placeholder="Objet">
                 <div class="form-columns">
                     <div class="infos">
-                        <input type="text" placeholder="Nom" />
-                        <input type="text" placeholder="Prénom" />
-                        <input type="email" placeholder="E-mail" />
+                        <input type="text" placeholder="Nom">
+                        <input type="text" placeholder="Prénom">
+                        <input type="email" placeholder="E-mail">
                         <button type="button">Envoyer le message</button>
                     </div>
                     <div class="message">
@@ -54,12 +62,13 @@
                     </div>
                 </div>
             </form>
-        </div>
+        </section>
 
-        <div class="renseignements">
+        <section class="renseignements">
             <div class="photo-iut">
-                <img src="../images/Photo_campus_IUT_Toulouse.jpg" alt="Photo du Campus de l'IUT">
+                <img src="../images/Photo_campus_IUT_Toulouse.jpg" alt="Photo du campus de l'IUT">
             </div>
+
             <div class="infos-localisation">
                 <div class="adresse-box">
                     <p>
@@ -72,27 +81,31 @@
                         Vendredi : de 8h30 à 11h45 et de 12h45 à 16h
                     </p>
                 </div>
+
                 <div class="carte-box">
-                    <img src="../images/iut_rangueil_map.jpg" alt="Carte de gps situant l'iut">
+                    <img src="../images/iut_rangueil_map.jpg" alt="Carte situant l'IUT de Rangueil">
                 </div>
             </div>
-        </div>
+        </section>
     </main>
+
     <footer>
-        <ul class=menu-topics-footer>
-            <li><a href="../index.html">Accueil</a>
-            <li><a href="./Presentation.html">Présentation du BUT Informatique</a>
-            <li><a href="./competence1.html">Réaliser un développement d'application</a>
-            <li><a href="./competence2.html">Optimiser des applications informatiques</a>
-            <li><a href="./competence3.html">Administrer des systèmes informatiques
-                    communicantscomplexes</a>
-            <li><a href="./competence4.html">Gérer des données de l'information</a>
-            <li><a href="./competence5.html">Conduire un projet</a>
-            <li><a href="./competence6.html">Travailler dans une équipe informatique</a>
+        <ul class="menu-topics-footer">
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="./Presentation.html">Présentation du BUT Informatique</a></li>
+            <li><a href="./competence1.html">Réaliser un développement d'application</a></li>
+            <li><a href="./competence2.html">Optimiser des applications informatiques</a></li>
+            <li><a href="./competence3.html">Administrer des systèmes informatiques communicants complexes</a></li>
+            <li><a href="./competence4.html">Gérer des données de l'information</a></li>
+            <li><a href="./competence5.html">Conduire un projet</a></li>
+            <li><a href="./competence6.html">Travailler dans une équipe informatique</a></li>
         </ul>
-        <div class=cnil-link-div><a href=https://www.cnil.fr/fr/reglement-europeen-protection-donnees
-                class=cnil-link>CNIL-RGPD</a></div>
-        <div class=div-footer-inc>
+
+        <div class="cnil-link-div">
+            <a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees" class="cnil-link">CNIL-RGPD</a>
+        </div>
+
+        <div class="div-footer-inc">
             <h3>Groupe 1C | R1.02</h3>
             <ul>
                 <li>Louis Bochereau</li>
@@ -102,6 +115,5 @@
             </ul>
         </div>
     </footer>
-    </body>
-
-    </html>
+</body>
+</html>
