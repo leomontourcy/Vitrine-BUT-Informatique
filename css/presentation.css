@@ -38,18 +38,6 @@ header nav a {
   text-decoration: none;
 }
 
-.main-header {
-  padding: 20px 0;
-  background-color: #004d99;
-  color: #fff;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.main-header h1 {
-  margin: 0 0 5px;
-}
-
 main {
   max-width: 1300px;
   margin: 20px auto;
@@ -60,143 +48,94 @@ main {
   overflow: visible;
 }
 
-h2, h3 {
-  color: #007bff;
-  border-bottom: 2px solid #eee;
-  padding-bottom: 5px;
-  margin-top: 30px;
-}
-
-.info-generale,
-.regles-passage {
-  margin-bottom: 40px;
-}
-
 .box1 {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.Ebox5,
-.Ebox6,
-.box2,
-.regles-table {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  align-items: center;
+h1 {
+  text-align: center;
+  margin: 10px 0 20px;
+  font-size: 28px;
+  color: #1f2d3d;
 }
 
-.Ebox5 {
-  max-width: 1200px;
-  padding: 15px;
-  border-radius: 8px;
-  background-color: #d08a77;
-  margin-bottom: 5%;
+h2 {
+  text-align: center;
+  color: #007bff;
+  margin: 30px 0 20px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #eee;
 }
 
-.Ebox6 {
-  max-width: 1200px;
-  padding: 15px;
-  border-radius: 8px;
-  background-color: #f1e6d6;
-  margin-bottom: 5%;
-}
-
-.Ebox7,
-.Ebox7bis {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  margin-left: 5%;
-}
-
-.Ebox7 {
-  margin-top: 8%;
-  margin-bottom: 8%;
-}
-
-.Ebox9,
-.Ebox10,
-.Ebox12,
-.Ebox13 {
-  max-width: 1200px;
-  border-radius: 8px;
-  display: flex;
-  gap: 10px;
-  padding: 15px;
-}
-
-.Ebox9 {
-  background-color: #ff6f4c;
-  margin-bottom: 5%;
-}
-
-.Ebox10 {
-  background-color: #fdcf41;
-  margin-bottom: 5%;
-}
-
-.Ebox11 {
-  display: flex;
-  padding: 10px;
-  background-color: #90ee90;
-  border-radius: 8px;
-  align-items: center;
-  justify-content: center;
-}
-
-.Ebox12 {
-  background-color: #2596be;
-}
-
-.Ebox13 {
-  background-color: #a26859;
-  margin-bottom: 10%;
-}
-
-.regles-table {
-  flex-wrap: wrap;
-}
-
-.regle-item {
-  flex: 1 1 400px;
-  padding: 20px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-}
-
-.regle-item h3 {
+h3 {
+  color: #007bff;
   margin-top: 0;
+  padding-bottom: 5px;
   border-bottom: 1px dotted #ccc;
 }
 
-.regle-item ul,
-.box3 {
-  padding-left: 20px;
+.box2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 20px 0;
 }
 
 .box3 {
+  flex: 1 1 380px;
   text-align: left;
-  flex: 1 1 300px;
+  padding-left: 20px;
+}
+
+.box4 {
+  flex: 1 1 320px;
+  text-align: center;
+  padding-right: 20px;
+  margin-top: 10px;
 }
 
 .presbut {
   width: 100%;
-  max-width: 500px;
+  max-width: 420px;
   height: auto;
   display: block;
+  margin: 0 auto;
   border-radius: 8px;
   object-fit: cover;
 }
 
-.box1 img {
-  max-width: 100%;
+hr {
+  border: none;
+  border-top: 2px solid #d9d9d9;
+  margin: 25px 0;
+}
+
+.regles-table {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(320px, 1fr));
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.regle-item {
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.regle-item img {
+  width: 100%;
   height: auto;
   display: block;
+  margin-top: 12px;
+  border-radius: 4px;
 }
 
 .definitions ul {
@@ -215,87 +154,27 @@ h2, h3 {
   border-radius: 4px;
 }
 
-.competences-table {
-  width: 80%;
-  max-width: 600px;
-  margin: 0 auto;
-  background-color: #fff;
-  border-collapse: collapse;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
-}
-
-.competences-table thead th {
-  background-color: #9d9c9c;
-  text-align: left;
+.box4 a {
+  display: inline-block;
+  text-decoration: none;
+  color: #007bff;
   font-weight: 700;
-  color: #f3eeee;
+  margin-top: 10px;
 }
 
-.competences-table tbody td,
-.competences-table thead th {
-  border: 1px solid #ccc;
-  padding: 8px;
-  font-size: 12px;
-  line-height: 1.2;
+.menu-topics-footer {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  justify-content: center;
 }
 
-.competences-table tbody tr:nth-child(odd) {
-  background-color: #fff;
-}
-
-.competences-table tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
-
-.competences-table tbody td,
-.competences-table tbody tr td:first-child {
-  text-align: left;
-}
-
-.semestre-s1 {
-  overflow-x: auto;
-}
-
-table {
-  width: 100%;
-  margin-top: 15px;
-  font-size: 0.9em;
-  border-collapse: collapse;
-}
-
-caption {
-  margin-bottom: 10px;
-  color: #004d99;
-  font-weight: 700;
-}
-
-td,
-th {
-  padding: 12px 15px;
-  border: 1px solid #ddd;
-  text-align: center;
-}
-
-thead th {
-  background-color: #004d99;
-  color: #fff;
-  font-weight: 700;
-}
-
-tbody tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-.sae-row {
-  background-color: #e6f7ff !important;
-  font-weight: 700;
-}
-
-tfoot td {
-  background-color: #007bff;
-  color: #fff;
-  font-weight: 700;
-  text-align: center;
+.menu-topics-footer a {
+  text-decoration: none;
+  color: #1f2d3d;
 }
 
 footer {
@@ -307,68 +186,47 @@ footer {
   font-size: 0.8em;
 }
 
-.box4 {
-  text-align: right;
-  padding-right: 20px;
-  margin-top: 10px;
+.cnil-link-div {
+  margin: 12px 0;
 }
 
-.Ebox11,
-.item1,
-.item2,
-.item3,
-.item4,
-.item5,
-.item6 {
-  font-size: 25px;
+.cnil-link {
+  color: #1f4e79;
   font-weight: 700;
+  text-decoration: none;
 }
 
-.item1,
-.item2,
-.item3,
-.item4,
-.item5,
-.item6 {
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-}
-
-.item1 {
-  background-color: #e25370;
-  align-items: center;
-  color: #000;
-}
-
-.item2 {
-  background-color: #e39b9b;
-  align-items: center;
-}
-
-.item3 {
-  background-color: #f7e373;
-  align-items: center;
-}
-
-.item4 {
-  background-color: #91ae4f;
-  align-items: center;
-}
-
-.item5 {
-  background-color: #87cefa;
-  align-items: center;
-}
-
-.item6 {
-  background-color: #789;
-  align-items: center;
+.div-footer-inc ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+@media (max-width: 900px) {
+  .box2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box3,
+  .box4 {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .regles-table {
+    grid-template-columns: 1fr;
+  }
+
+  header nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
